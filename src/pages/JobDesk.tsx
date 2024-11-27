@@ -1,5 +1,6 @@
 // import Sidebar from "../components/Sidebar";
 import { Briefcase, Wallet, Clock3, CalendarCheck2, UserRound, Mail, Smartphone, Globe  } from "lucide-react";
+import BasicTabs from "../components/tabs";
 
 
 const info = [
@@ -61,7 +62,7 @@ export default function JobDesk(){
                         </div>
                     </div>
                     <div className="col-span-2 bg-white rounded-lg">
-                        fghjk
+                        <BasicTabs />
                     </div>
                 </div>
             </div>
