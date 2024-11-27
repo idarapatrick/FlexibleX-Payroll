@@ -1,4 +1,4 @@
-import Sidebar from "@/components/Sidebar";
+// import Sidebar from "../components/Sidebar";
 import { Briefcase, Wallet, Clock3, CalendarCheck2, UserRound, Mail, Smartphone, Globe  } from "lucide-react";
 
 
@@ -17,11 +17,10 @@ const contacts = [
 
 export default function JobDesk(){
     return (
-    <div className="flex bg-gray-50">
-        <Sidebar />
-        <main className="flex-1 ml-64 p-8">
+    <div className="">
+        <main className="">
             <div className="max-w-7xl mx-auto">
-                <div className="flex items-center justify-between mb-8">
+                <div className="flex justify-between mb-8">
                     <div>
                         <p className="text-gray-600 mt-1">Job desk &gt; <span className="text-green-400">
                             Attendance</span>

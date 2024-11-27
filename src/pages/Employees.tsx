@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Plus, Search, Edit2, Trash2 } from "lucide-react";
+import { Plus, Search, Pencil, Trash2 } from "lucide-react";
 import {
   collection,
   getDocs,
@@ -268,7 +268,7 @@ const EmployeeManagement = () => {
                         }}
                         className="text-blue-600 hover:text-blue-900"
                       >
-                        <Edit2 className="w-5 h-5" />
+                        <Pencil className="w-5 h-5" />
                       </button>
                       <button
                         onClick={() => handleDeleteEmployee(employee.id)}
