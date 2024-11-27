@@ -7,6 +7,7 @@ import LeaveManagement from '../pages/Leave';
 import EmployeeManagement from '../pages/Employees';
 import { Chart } from './chart';
 import Payments from '../pages/Payments';
+import Folder from './folder';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -52,6 +53,7 @@ export default function BasicTabs() {
           <Tab label="Leave" {...a11yProps(1)} />
           <Tab label="Employees" {...a11yProps(2)} />
           <Tab label="Payments" {...a11yProps(3)} />
+          <Tab label="Folder" {...a11yProps(4)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -66,6 +68,9 @@ export default function BasicTabs() {
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
         <Payments />
+      </CustomTabPanel>
+      <CustomTabPanel value={value} index={4}>
+        <Folder />
       </CustomTabPanel>
     </Box>
   );
