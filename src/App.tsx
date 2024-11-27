@@ -16,6 +16,7 @@ import Leave from "./pages/Leave";
 import Attendance from "./pages/Attendance";
 import Payments from "./pages/Payments";
 import PayrollDetails from "./pages/PayrollDetails";
+import JobDesk from "./pages/JobDesk";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           {/* Protected dashboard routes */}
           <Route path="/dashboard" element={<DashboardLayout />}>
             <Route path="" element={<Dashboard />} />
+            <Route path="job-desk" element={<JobDesk />} />
             <Route path="employees" element={<EmployeeManagement />} />
             <Route path="leave" element={<Leave />} />
             <Route path="attendance" element={<Attendance />} />
