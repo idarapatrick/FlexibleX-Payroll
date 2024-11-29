@@ -18,6 +18,7 @@ import Payments from "./pages/Payments";
 import PayrollDetails from "./pages/PayrollDetails";
 import JobDesk from "./pages/JobDesk";
 
+//application class
 function App() {
   return (
     <BrowserRouter>
